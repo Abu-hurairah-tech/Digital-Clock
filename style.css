@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "digitalDisplay";
+  src: url(digital-7/digital-7.ttf) format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "digitalDisplay";
+  color: #fdfffc;
+}
+
+body {
+  background-color: #235789;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 90vh;
+  justify-content: center;
+}
+
+h1 {
+  background-color: #c1292e;
+  padding: 1rem;
+  font-size: 4rem;
+  width: 100vh;
+  text-align: center;
+  border-radius: 2rem;
+  margin-bottom: 45px;
+  border: none;
+  box-shadow: 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.clock {
+  font-size: 9rem;
+  text-align: center;
+}
+
+.millisec-style {
+  font-size: 8rem;
+}
+
+.btns{
+    text-align: center;
+}
+
+.milliseconds {
+  padding: 20px;
+  background-color: #c1292e;
+  font-size: 2rem;
+  border-radius: 2rem;
+  font-weight: 500;
+  border: none;
+  box-shadow: 4px 8px rgba(0, 0, 0, 0.5);
+}
